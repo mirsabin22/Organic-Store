@@ -254,7 +254,7 @@ public class StoreView {
         JPanel eastPanel = new JPanel(new BorderLayout());
         JPanel footerPanel = new JPanel();
 
-        JLabel headerLabel = new JLabel(String.format("The Organic Store!"));
+        JLabel headerLabel = new JLabel(String.format("The Organic Store! (ID: %d)", cartId));
         headerLabel.setFont(new Font("MV Boli", Font.BOLD, 20));
 
         headerPanel.setBackground(new Color(150, 155, 120));
